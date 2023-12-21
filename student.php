@@ -1,0 +1,17 @@
+
+<?php
+ $student=array("sruthi","anupama","parvathy","aswathy","sneha");
+echo "<br>The array in acending order:";
+ asort($student);
+  print_r($student);
+  
+ 
+ 
+ echo "<br>The array in decending order:";
+ rsort($student);
+ print_r($student);
+ echo "<br>";
+
+
+
+?>
